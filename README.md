@@ -10,6 +10,7 @@ To generate a clean and semantically structured dataset of Hadith narrations gro
 
 - Contradiction detection
 - Semantic chunk retrieval
+
 - Islamic reasoning using LLMs
 - Dataset preparation for fine-tuning or RAG pipelines
 
@@ -34,6 +35,7 @@ The script outputs a JSON file structured like this:
       "hadith_number": "456",
       "text": "456 - Concluding Hadith text..."
     }
+    "title_number": 1
   },
   ...
 ]
